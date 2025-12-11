@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "examples": [
+        "hi",
+        "hello",
+        "hey",
+        "hey there",
+        "good morning",
+        "good evening",
+        "hiya"
+      ]
+    },
+    {
+      "tag": "places_to_visit",
+      "examples": [
+        "places to visit in goa",
+        "tourist spots in mumbai",
+        "what to see in kerala",
+        "best places to visit in bangalore",
+        "suggest tourist places in delhi",
+        "famous sights in mangalore",
+        "recommend places in goa"
+      ]
+    },
+    {
+      "tag": "ticket_booking",
+      "examples": [
+        "how to book a train ticket",
+        "steps to book bus ticket",
+        "how do I book flight tickets",
+        "ticket booking steps",
+        "how to reserve train ticket on irctc",
+        "book a bus ticket"
+      ]
+    },
+    {
+      "tag": "train_timing",
+      "examples": [
+        "train timings from mangalore to bangalore",
+        "any trains to delhi tomorrow",
+        "mangalore bangalore train schedule",
+        "evening trains to goa",
+        "what time is the next train to udupi"
+      ]
+    },
+    {
+      "tag": "bus_timing",
+      "examples": [
+        "bus timings to udupi",
+        "when is the next bus to shivamogga",
+        "bus schedule from mangalore",
+        "bus timings mangalore to bangalore",
+        "next bus to udupi"
+      ]
+    },
+    {
+      "tag": "hotels",
+      "examples": [
+        "hotels in goa",
+        "best hotels in mangalore",
+        "cheap stays in bangalore",
+        "recommend hotels near calangute"
+      ]
+    },
+    {
+      "tag": "best_time_to_visit",
+      "examples": [
+        "best time to visit kerala",
+        "when should I visit goa",
+        "ideal months to go to munnar",
+        "season to travel to delhi"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "examples": ["thanks", "thank you", "thx", "thanks a lot"]
+    },
+    {
+      "tag": "goodbye",
+      "examples": ["bye", "goodbye", "see you", "talk to you later"]
+    }
+  ]
+}

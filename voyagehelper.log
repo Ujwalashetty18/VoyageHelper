@@ -1,0 +1,1725 @@
+2025-12-11 10:19:51,207 WARNING  * Debugger is active!
+2025-12-11 10:19:51,221 INFO  * Debugger PIN: 102-205-164
+2025-12-11 10:23:42,567 INFO  * Detected change in 'C:\\Users\\ujwal\\OneDrive\\Desktop\\AI\\VoyageHelper\\src\\utils.py', reloading
+2025-12-11 10:23:44,802 WARNING  * Debugger is active!
+2025-12-11 10:23:44,807 INFO  * Debugger PIN: 102-205-164
+2025-12-11 10:29:23,901 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-11 10:29:23,902 INFO [33mPress CTRL+C to quit[0m
+2025-12-11 10:29:23,904 INFO  * Restarting with stat
+2025-12-11 10:29:25,611 WARNING  * Debugger is active!
+2025-12-11 10:29:25,616 INFO  * Debugger PIN: 102-205-164
+2025-12-11 10:29:31,655 INFO msg=Places to visit in Goa intent=places_to_visit conf=0.4118286782664299 entities=['goa'] ctx_last=None
+2025-12-11 10:29:31,656 INFO reply=Top places in Goa:
+- Baga Beach
+- Calangute Beach
+- Aguada Fort
+- Dudhsagar Falls
+2025-12-11 10:29:31,656 INFO 127.0.0.1 - - [11/Dec/2025 10:29:31] "POST /chat HTTP/1.1" 200 -
+2025-12-11 10:33:32,016 INFO  * Detected change in 'C:\\Users\\ujwal\\OneDrive\\Desktop\\AI\\VoyageHelper\\src\\app.py', reloading
+2025-12-11 10:33:32,199 INFO  * Restarting with stat
+2025-12-11 10:33:34,195 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:34:23,274 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:34:24,916 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:34:47,879 INFO msg=hyy intent=greeting conf=0.1678332136027899 entities=[] ctx_last=None
+2025-12-11 10:34:47,880 INFO low_confidence reply for msg=hyy conf=0.1678332136027899
+2025-12-11 10:34:55,405 INFO msg=hello intent=greeting conf=0.30625146365263334 entities=[] ctx_last=None
+2025-12-11 10:34:55,406 INFO low_confidence reply for msg=hello conf=0.30625146365263334
+2025-12-11 10:34:59,537 INFO msg=goa intent=places_to_visit conf=0.1757646736669944 entities=['goa'] ctx_last=None
+2025-12-11 10:34:59,538 INFO low_confidence reply for msg=goa conf=0.1757646736669944
+2025-12-11 10:35:08,131 INFO msg=i want to visit goad intent=places_to_visit conf=0.2075031017460818 entities=['goa'] ctx_last=None
+2025-12-11 10:35:08,131 INFO low_confidence reply for msg=i want to visit goad conf=0.2075031017460818
+2025-12-11 10:35:14,556 INFO msg=Places to visit in Goa intent=places_to_visit conf=0.4118286782664299 entities=['goa'] ctx_last=None
+2025-12-11 10:35:14,556 INFO reply=Top places in Goa:
+- Baga Beach
+- Calangute Beach
+- Aguada Fort
+- Dudhsagar Falls
+2025-12-11 10:35:20,891 INFO msg=- Calangute Beach intent=greeting conf=0.15994545491672613 entities=[] ctx_last=goa
+2025-12-11 10:35:20,891 INFO low_confidence reply for msg=- Calangute Beach conf=0.15994545491672613
+2025-12-11 10:35:27,841 INFO msg=Train timings from Mangalore to Bangalore intent=train_timing conf=0.23528335239712367 entities=['bangalore', 'mangalore'] ctx_last=goa
+2025-12-11 10:35:27,841 INFO low_confidence reply for msg=Train timings from Mangalore to Bangalore conf=0.23528335239712367
+2025-12-11 10:43:30,803 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:43:48,475 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:43:51,995 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:43:57,763 INFO msg=Goa intent=places_to_visit conf=0.1757646736669944 entities=['goa'] ctx_last=None
+2025-12-11 10:43:57,764 INFO low_confidence reply for msg=Goa conf=0.1757646736669944
+2025-12-11 10:49:22,101 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:49:46,877 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:49:48,552 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:50:13,059 INFO msg=Goa intent=places_to_visit conf=0.1757646736669944 entities=['goa'] ctx_last=None
+2025-12-11 10:50:13,060 INFO Returning local KB card for goa (entity-first)
+2025-12-11 10:51:54,613 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:55:29,981 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:58:51,663 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 10:58:54,102 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:02:55,975 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:03:25,535 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:03:31,711 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:05:18,367 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:05:22,163 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:06:23,779 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 11:06:23,830 INFO msg=hii intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 11:06:23,834 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 11:06:27,598 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:06:27,955 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 11:06:29,581 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 11:06:29,588 INFO msg=mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=None
+2025-12-11 11:06:30,455 INFO Returning wiki card for mumbai (entity-first)
+2025-12-11 16:58:56,960 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 16:58:56,966 INFO msg=goa intent=places_to_visit conf=1.0 entities=['goa'] ctx_last=None
+2025-12-11 16:58:56,995 INFO Returning local KB card for goa (entity-first)
+2025-12-11 16:59:33,414 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 16:59:33,419 INFO msg=Places to visit in Goa intent=places_to_visit conf=1.0 entities=['goa'] ctx_last=None
+2025-12-11 16:59:33,420 INFO Returning local KB card for goa (entity-first)
+2025-12-11 16:59:38,371 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 16:59:38,373 INFO msg=Train timings from Mangalore to Bangalore intent=train_timing conf=1.0 entities=['mangalore', 'bangalore'] ctx_last=None
+2025-12-11 16:59:38,374 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:05:29,403 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:05:31,467 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:05:32,097 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:06:17,824 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:17,836 INFO msg=hii intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 17:06:17,837 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 17:06:20,762 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:06:22,703 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:22,709 INFO msg=delhi intent=places_to_visit conf=1.0 entities=['delhi'] ctx_last=None
+2025-12-11 17:06:28,236 INFO reply=Sorry, I don't have data for Delhi. Try another city.
+2025-12-11 17:06:36,596 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:36,598 INFO msg=goa intent=places_to_visit conf=1.0 entities=['goa'] ctx_last=delhi
+2025-12-11 17:06:36,599 INFO Returning local KB card for goa (entity-first)
+2025-12-11 17:06:41,802 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:41,804 INFO msg=Train timings from Mangalore to Bangalore intent=train_timing conf=1.0 entities=['mangalore', 'bangalore'] ctx_last=delhi
+2025-12-11 17:06:41,804 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:06:46,173 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:46,174 INFO msg=How to reach Mangalore? intent=ticket_booking conf=1.0 entities=['mangalore'] ctx_last=delhi
+2025-12-11 17:06:46,175 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:06:47,113 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:47,114 INFO msg=How to reach Mangalore? intent=ticket_booking conf=1.0 entities=['mangalore'] ctx_last=delhi
+2025-12-11 17:06:47,115 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:06:48,234 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:48,236 INFO msg=Best time to visit Mangalore? intent=best_time_to_visit conf=1.0 entities=['mangalore'] ctx_last=delhi
+2025-12-11 17:06:48,237 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:06:49,327 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:06:49,329 INFO msg=Hotels in Mangalore intent=hotels conf=1.0 entities=['mangalore'] ctx_last=delhi
+2025-12-11 17:06:49,329 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:08:36,052 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 219, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:08:36,055 INFO msg=How to reach Mangalore? intent=ticket_booking conf=1.0 entities=['mangalore'] ctx_last=delhi
+2025-12-11 17:08:36,056 INFO Returning local KB card for mangalore (entity-first)
+2025-12-11 17:15:20,860 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:16:03,200 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:16:25,614 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:18:22,510 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:18:39,731 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:21:12,784 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:21:14,646 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:21:50,437 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 333, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:21:50,441 INFO msg=hyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 17:21:50,442 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 17:21:54,119 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 333, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:21:54,122 INFO msg=goa intent=places_to_visit conf=1.0 entities=['goa'] ctx_last=None
+2025-12-11 17:21:54,123 INFO Returning local KB card for goa (entity-first)
+2025-12-11 17:21:58,102 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 333, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:21:58,104 INFO msg=Train timings from Mangalore to Bangalore intent=train_timing conf=1.0 entities=['bangalore', 'mangalore'] ctx_last=goa
+2025-12-11 17:22:02,124 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 17:22:04,131 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 333, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:22:04,136 INFO msg=How to book a train ticket? intent=ticket_booking conf=1.0 entities=[] ctx_last=None
+2025-12-11 17:22:04,137 INFO reply=Train (IRCTC):
+1. Open IRCTC website/app
+2. Login
+3. Enter From/To & date
+4. Choose train & class
+5. Enter passenger details
+6. Pay and download ticket
+
+Bus (RedBus/KSRTC):
+1. Open website/app
+2. Search route
+3. Select bus & seat
+4. Pay and get e-ticket
+2025-12-11 17:25:10,070 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 333, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 17:25:10,072 INFO msg=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 entities=['udupi', 'mangalore'] ctx_last=None
+2025-12-11 17:25:13,859 INFO Returning wiki card for udupi (entity-first)
+2025-12-11 21:03:59,265 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:07:36,563 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:07:45,195 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:08:42,918 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:12:57,315 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:12:59,736 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:13:51,091 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:13:51,142 INFO msg=hyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 21:13:51,144 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 21:13:57,490 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:14:05,477 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:14:05,485 INFO msg=i want to travel karnataka intent=best_time_to_visit conf=1.0 entities=[] ctx_last=None
+2025-12-11 21:14:05,485 INFO reply=Sorry, I didn't understand. Can you rephrase?
+2025-12-11 21:14:28,202 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:14:28,206 INFO msg=i want to travel in karnataka intent=places_to_visit conf=1.0 entities=[] ctx_last=None
+2025-12-11 21:14:28,206 INFO reply=Which city? e.g., 'Places to visit in Goa'
+2025-12-11 21:14:37,630 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:14:37,633 INFO msg=Udupi intent=bus_timing conf=1.0 entities=['udupi'] ctx_last=None
+2025-12-11 21:14:37,738 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:14:37,739 INFO RESPOND card: text=Udupi intent=bus_timing conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:14:45,318 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:14:45,322 INFO msg=How to reach Udupi? intent=ticket_booking conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:14:45,324 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:14:45,324 INFO RESPOND card: text=How to reach Udupi? intent=ticket_booking conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:14:52,233 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:14:52,236 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:14:52,239 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:14:52,240 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:15:12,914 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:15:12,917 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:15:12,918 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:15:12,918 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:15:22,125 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:15:22,128 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:15:22,130 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:15:22,130 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:15:23,531 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:15:23,533 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:15:23,535 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:15:23,535 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:16:25,581 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:16:25,586 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:16:25,589 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:16:25,589 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:16:26,712 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:16:26,715 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:16:26,716 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:16:26,717 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:20:55,753 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:20:58,298 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:21:29,997 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:21:30,013 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=None
+2025-12-11 21:21:30,015 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:21:30,015 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:21:42,916 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:21:42,920 INFO msg=hy intent=greeting conf=1.0 entities=[] ctx_last=udupi
+2025-12-11 21:21:42,920 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 21:21:56,333 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:21:56,336 INFO msg=i want to visit mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=udupi
+2025-12-11 21:21:56,337 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:21:56,338 INFO RESPOND card: text=i want to visit mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:21:58,697 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:21:58,700 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:21:58,701 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:21:58,702 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:22:00,580 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:22:00,583 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:22:00,584 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:22:00,586 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:22:02,040 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:22:02,145 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:22:02,148 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:22:02,151 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:22:05,307 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:22:05,310 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:22:05,312 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:22:05,313 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:22:06,196 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 340, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:22:06,200 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:22:06,201 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:22:06,201 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:23:53,287 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:24:06,194 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:24:36,306 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:25:05,894 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:25:12,207 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:25:12,212 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=None
+2025-12-11 21:25:12,212 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:25:12,213 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:25:15,202 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:25:15,205 INFO msg=How to reach Mumbai? intent=ticket_booking conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:25:15,206 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:25:15,206 INFO RESPOND card: text=How to reach Mumbai? intent=ticket_booking conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:25:17,615 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:25:17,618 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:25:17,620 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:25:17,620 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:25:18,961 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:25:18,963 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:25:18,964 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:25:18,964 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:25:48,882 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:26:50,417 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:26:50,423 INFO msg=How to reach Mumbai? intent=ticket_booking conf=1.0 entities=['mumbai'] ctx_last=None
+2025-12-11 21:26:50,424 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:26:50,424 INFO RESPOND card: text=How to reach Mumbai? intent=ticket_booking conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:01,749 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:01,752 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:01,754 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:27:01,754 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:03,122 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:03,125 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:03,126 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:27:03,126 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:04,678 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:04,680 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:04,680 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:27:04,681 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:05,175 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:05,177 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:05,178 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:27:05,178 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:05,591 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:05,605 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:05,606 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:27:05,607 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:06,607 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:06,610 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:06,611 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:27:06,612 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:07,422 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:07,424 INFO msg=Best time to visit Mumbai? intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:07,426 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 21:27:07,426 INFO RESPOND card: text=Best time to visit Mumbai? intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:08,507 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:08,510 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:08,511 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:27:08,511 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:09,408 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:09,410 INFO msg=Hotels in Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=mumbai
+2025-12-11 21:27:09,412 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 21:27:09,412 INFO RESPOND card: text=Hotels in Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 21:27:15,962 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:15,963 INFO msg=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 entities=['mangalore', 'udupi'] ctx_last=mumbai
+2025-12-11 21:27:15,964 INFO Returning local KB card for mangalore (entity-first, high confidence)
+2025-12-11 21:27:15,965 INFO RESPOND card: text=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 cities=['mangalore', 'udupi'] card_key=mangalore
+2025-12-11 21:27:50,887 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:50,890 INFO msg=How to book a train ticket? intent=ticket_booking conf=1.0 entities=[] ctx_last=mangalore
+2025-12-11 21:27:50,890 INFO reply=Train (IRCTC):
+1. Open IRCTC website/app
+2. Login
+3. Enter From/To & date
+4. Choose train & class
+5. Enter passenger details
+6. Pay and download ticket
+
+Bus (RedBus/KSRTC):
+1. Open website/app
+2. Search route
+3. Select bus & seat
+4. Pay and get e-ticket
+2025-12-11 21:27:55,983 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 392, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:27:55,987 INFO msg=Train timings from Mangalore to Bangalore intent=train_timing conf=1.0 entities=['bangalore', 'mangalore'] ctx_last=mangalore
+2025-12-11 21:28:03,295 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:29:44,317 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:30:11,849 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:42:05,465 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:42:07,409 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:43:21,280 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:21,286 INFO msg=hyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 21:43:21,287 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 21:43:37,175 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:37,178 INFO msg=i want to visit udupi intent=places_to_visit conf=1.0 entities=['udupi'] ctx_last=None
+2025-12-11 21:43:37,179 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:37,179 INFO RESPOND card: text=i want to visit udupi intent=places_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:41,069 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:41,072 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:41,073 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:41,074 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:43,364 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:43,367 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:43,368 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:43,368 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:44,130 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:44,132 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:44,133 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:44,133 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:44,518 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:44,520 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:44,522 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:44,522 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:44,925 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:44,927 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:44,928 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:44,928 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:45,346 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:45,348 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:45,349 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:45,349 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:46,399 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:46,401 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:46,403 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:46,403 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:47,081 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:47,084 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:43:47,085 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:43:47,086 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:43:57,540 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:43:57,543 INFO msg=which is best time to reach intent=best_time_to_visit conf=1.0 entities=[] ctx_last=udupi
+2025-12-11 21:43:57,544 INFO reply=Sorry, I didn't understand. Can you rephrase?
+2025-12-11 21:44:17,832 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:44:17,837 INFO msg=which is best time to reach udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:44:17,838 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:44:17,839 INFO RESPOND card: text=which is best time to reach udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:44:25,465 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:44:25,467 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:44:25,468 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:44:25,469 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:44:26,864 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:44:26,867 INFO msg=How to reach Udupi? intent=ticket_booking conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:44:26,868 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:44:26,868 INFO RESPOND card: text=How to reach Udupi? intent=ticket_booking conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:45:45,816 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:45:45,818 INFO msg=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 entities=['udupi', 'mangalore'] ctx_last=udupi
+2025-12-11 21:45:45,819 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:45:45,820 INFO RESPOND card: text=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 cities=['udupi', 'mangalore'] card_key=udupi
+2025-12-11 21:50:46,865 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:50:48,706 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 21:51:21,571 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:51:21,694 INFO msg=hyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 21:51:21,720 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 21:51:33,723 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:51:33,725 INFO msg=i want to visit Udupi intent=places_to_visit conf=1.0 entities=['udupi'] ctx_last=None
+2025-12-11 21:51:33,727 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:51:33,727 INFO RESPOND card: text=i want to visit Udupi intent=places_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:51:37,954 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:51:37,957 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:51:37,959 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:51:37,959 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:51:39,183 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:51:39,188 INFO msg=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:51:39,190 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:51:39,191 INFO RESPOND card: text=Best time to visit Udupi? intent=best_time_to_visit conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:51:40,044 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:51:40,048 INFO msg=How to reach Udupi? intent=ticket_booking conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:51:40,049 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-11 21:51:40,049 INFO RESPOND card: text=How to reach Udupi? intent=ticket_booking conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:51:41,992 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:51:41,995 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:51:41,996 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:51:41,996 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:52:27,385 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:52:27,390 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:52:27,392 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:52:27,393 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:52:28,150 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:52:28,152 INFO msg=Hotels in Udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:52:28,153 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:52:28,154 INFO RESPOND card: text=Hotels in Udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:52:36,543 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:52:36,545 INFO msg=which all hotels thetre intent=hotels conf=1.0 entities=[] ctx_last=udupi
+2025-12-11 21:52:36,547 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:52:36,547 INFO RESPOND card: text=which all hotels thetre intent=hotels conf=1.0 cities=[] card_key=udupi
+2025-12-11 21:52:55,042 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:52:55,044 INFO msg=which all hotels present in udupi intent=hotels conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:52:55,045 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:52:55,045 INFO RESPOND card: text=which all hotels present in udupi intent=hotels conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 21:53:22,471 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 448, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 21:53:22,476 INFO msg=which all hotels are there in Udupi? intent=greeting conf=1.0 entities=['udupi'] ctx_last=udupi
+2025-12-11 21:53:22,478 INFO Returning hotel card for udupi (hotel-specific flow)
+2025-12-11 21:53:22,478 INFO RESPOND card: text=which all hotels are there in Udupi? intent=greeting conf=1.0 cities=['udupi'] card_key=udupi
+2025-12-11 22:03:12,045 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:03:14,978 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:03:40,583 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:03:40,591 INFO msg=hyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 22:03:40,592 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 22:03:50,042 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:03:50,045 INFO msg=Bangalore intent=train_timing conf=1.0 entities=['bangalore'] ctx_last=None
+2025-12-11 22:03:50,825 INFO Returning wiki card for bangalore (entity-first, high confidence)
+2025-12-11 22:03:50,826 INFO RESPOND card: text=Bangalore intent=train_timing conf=1.0 cities=['bangalore'] card_key=bangalore
+2025-12-11 22:03:56,926 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:03:56,928 INFO msg=Best time to visit Bengaluru? intent=best_time_to_visit conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:03:56,958 INFO reply=Sorry, I didn't understand. Can you rephrase?
+2025-12-11 22:03:58,992 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:03:58,993 INFO msg=Best time to visit Bengaluru? intent=best_time_to_visit conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:03:58,994 INFO reply=Sorry, I didn't understand. Can you rephrase?
+2025-12-11 22:04:03,872 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:04:03,879 INFO msg=Hotels in Bengaluru intent=hotels conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:04:03,881 INFO Returning hotel card for bangalore (hotel-specific flow)
+2025-12-11 22:04:03,884 INFO RESPOND card: text=Hotels in Bengaluru intent=hotels conf=1.0 cities=[] card_key=bangalore
+2025-12-11 22:04:20,719 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:04:20,721 INFO msg=which is best time in bangalore to go? intent=places_to_visit conf=1.0 entities=['bangalore', 'goa'] ctx_last=bangalore
+2025-12-11 22:04:20,722 INFO Returning cached card for bangalore (entity-first, high confidence)
+2025-12-11 22:04:20,723 INFO RESPOND card: text=which is best time in bangalore to go? intent=places_to_visit conf=1.0 cities=['bangalore', 'goa'] card_key=bangalore
+2025-12-11 22:04:36,606 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:04:36,608 INFO msg=places_to_visit intent=greeting conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:04:36,609 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 22:07:25,409 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:25,412 INFO msg=which is best hotels to go bangalore intent=hotels conf=1.0 entities=['bangalore', 'goa'] ctx_last=bangalore
+2025-12-11 22:07:25,414 INFO Returning hotel card for bangalore (hotel-specific flow)
+2025-12-11 22:07:25,415 INFO RESPOND card: text=which is best hotels to go bangalore intent=hotels conf=1.0 cities=['bangalore', 'goa'] card_key=bangalore
+2025-12-11 22:07:28,787 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:28,792 INFO msg=hotels intent=hotels conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:07:28,794 INFO Returning hotel card for bangalore (hotel-specific flow)
+2025-12-11 22:07:28,794 INFO RESPOND card: text=hotels intent=hotels conf=1.0 cities=[] card_key=bangalore
+2025-12-11 22:07:31,884 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:31,888 INFO msg=hotel intent=greeting conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:07:31,890 INFO Returning hotel card for bangalore (hotel-specific flow)
+2025-12-11 22:07:31,891 INFO RESPOND card: text=hotel intent=greeting conf=1.0 cities=[] card_key=bangalore
+2025-12-11 22:07:34,776 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:34,792 INFO msg=How to reach Bengaluru? intent=ticket_booking conf=1.0 entities=[] ctx_last=bangalore
+2025-12-11 22:07:34,827 INFO reply=Train (IRCTC):
+1. Open IRCTC website/app
+2. Login
+3. Enter From/To & date
+4. Choose train & class
+5. Enter passenger details
+6. Pay and download ticket
+
+Bus (RedBus/KSRTC):
+1. Open website/app
+2. Search route
+3. Select bus & seat
+4. Pay and get e-ticket
+2025-12-11 22:07:38,707 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:38,710 INFO msg=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 entities=['mangalore', 'udupi'] ctx_last=bangalore
+2025-12-11 22:07:38,711 INFO Returning local KB card for mangalore (entity-first, high confidence)
+2025-12-11 22:07:38,711 INFO RESPOND card: text=Bus schedule from Mangalore to Udupi intent=bus_timing conf=1.0 cities=['mangalore', 'udupi'] card_key=mangalore
+2025-12-11 22:07:41,153 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:41,161 INFO msg=How to reach Mangalore? intent=ticket_booking conf=1.0 entities=['mangalore'] ctx_last=mangalore
+2025-12-11 22:07:41,165 INFO Returning local KB card for mangalore (entity-first, high confidence)
+2025-12-11 22:07:41,306 INFO RESPOND card: text=How to reach Mangalore? intent=ticket_booking conf=1.0 cities=['mangalore'] card_key=mangalore
+2025-12-11 22:07:43,209 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:43,218 INFO msg=Best time to visit Mangalore? intent=best_time_to_visit conf=1.0 entities=['mangalore'] ctx_last=mangalore
+2025-12-11 22:07:43,323 INFO Returning local KB card for mangalore (entity-first, high confidence)
+2025-12-11 22:07:43,326 INFO RESPOND card: text=Best time to visit Mangalore? intent=best_time_to_visit conf=1.0 cities=['mangalore'] card_key=mangalore
+2025-12-11 22:07:45,958 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:45,961 INFO msg=Best time to visit Mangalore? intent=best_time_to_visit conf=1.0 entities=['mangalore'] ctx_last=mangalore
+2025-12-11 22:07:45,962 INFO Returning local KB card for mangalore (entity-first, high confidence)
+2025-12-11 22:07:45,963 INFO RESPOND card: text=Best time to visit Mangalore? intent=best_time_to_visit conf=1.0 cities=['mangalore'] card_key=mangalore
+2025-12-11 22:07:46,921 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 451, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:07:46,928 INFO msg=Hotels in Mangalore intent=hotels conf=1.0 entities=['mangalore'] ctx_last=mangalore
+2025-12-11 22:07:46,929 INFO Returning hotel card for mangalore (hotel-specific flow)
+2025-12-11 22:07:47,009 INFO RESPOND card: text=Hotels in Mangalore intent=hotels conf=1.0 cities=['mangalore'] card_key=mangalore
+2025-12-11 22:29:35,127 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:29:55,762 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:47:59,802 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:48:02,833 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:48:42,330 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:48:42,410 INFO msg=hyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-11 22:48:42,414 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-11 22:48:49,245 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-11 22:48:56,655 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:48:56,665 INFO msg=Mumbai intent=places_to_visit conf=1.0 entities=['mumbai'] ctx_last=None
+2025-12-11 22:48:56,667 INFO Returning cached card for mumbai (entity-first, high confidence)
+2025-12-11 22:48:56,668 INFO RESPOND card: text=Mumbai intent=places_to_visit conf=1.0 cities=['mumbai'] card_key=mumbai
+2025-12-11 22:49:04,272 INFO Immediate best_time from Wiki for mumbai
+2025-12-11 22:49:11,209 INFO Immediate hotels handler returned for mumbai
+2025-12-11 22:49:17,362 INFO Immediate hotels handler returned for mumbai
+2025-12-11 22:49:41,924 INFO Immediate hotels handler returned for mumbai
+2025-12-11 22:49:45,204 INFO Immediate how_to_reach from Wiki for mumbai
+2025-12-11 22:49:54,465 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:49:54,467 INFO msg=hotel list intent=greeting conf=1.0 entities=[] ctx_last=mumbai
+2025-12-11 22:49:54,468 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 22:49:54,469 INFO RESPOND card: text=hotel list intent=greeting conf=1.0 cities=[] card_key=mumbai
+2025-12-11 22:50:09,704 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-11 22:50:09,709 INFO msg=i want  hotel list intent=greeting conf=1.0 entities=[] ctx_last=mumbai
+2025-12-11 22:50:09,710 INFO Returning hotel card for mumbai (hotel-specific flow)
+2025-12-11 22:50:09,711 INFO RESPOND card: text=i want  hotel list intent=greeting conf=1.0 cities=[] card_key=mumbai
+2025-12-11 22:50:13,176 INFO Immediate best_time from Wiki for mumbai
+2025-12-12 00:16:14,008 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-12 00:16:17,341 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-12 00:17:05,264 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:17:05,345 INFO msg=hyyy intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-12 00:17:05,348 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-12 00:17:12,392 INFO Loaded model from model/intent_pipeline.joblib
+2025-12-12 00:17:17,473 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:17:17,485 INFO msg=shimla intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-12 00:17:17,486 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-12 00:17:29,411 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:17:29,415 INFO msg=i want to visit shimla intent=places_to_visit conf=1.0 entities=[] ctx_last=None
+2025-12-12 00:17:29,417 INFO reply=Which city? e.g., 'Places to visit in Goa'
+2025-12-12 00:17:49,393 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:17:49,397 INFO msg=Shimla intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-12 00:17:49,398 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-12 00:18:00,584 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:18:00,587 INFO msg=Places to visit in Shimla intent=places_to_visit conf=1.0 entities=[] ctx_last=None
+2025-12-12 00:18:00,588 INFO reply=Which city? e.g., 'Places to visit in Goa'
+2025-12-12 00:18:07,515 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:18:07,519 INFO msg=jaipur intent=greeting conf=1.0 entities=[] ctx_last=None
+2025-12-12 00:18:07,520 INFO reply=Hello! I'm VoyageHelper. Where do you want to travel?
+2025-12-12 00:18:12,692 ERROR predict_proba failed, defaulting probability to 1.0
+Traceback (most recent call last):
+  File "C:\Users\ujwal\OneDrive\Desktop\AI\VoyageHelper\src\app.py", line 631, in chat
+    probs = model.predict_proba([text.lower()])[0]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\pipeline.py", line 905, in predict_proba
+    return self.steps[-1][1].predict_proba(Xt, **params)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\ujwal\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1457, in predict_proba
+    ovr = self.multi_class in ["ovr", "warn"] or (
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'LogisticRegression' object has no attribute 'multi_class'
+2025-12-12 00:18:12,696 INFO msg=udupi intent=bus_timing conf=1.0 entities=['udupi'] ctx_last=None
+2025-12-12 00:18:12,697 INFO Returning cached card for udupi (entity-first, high confidence)
+2025-12-12 00:18:12,698 INFO RESPOND card: text=udupi intent=bus_timing conf=1.0 cities=['udupi'] card_key=udupi

@@ -1,0 +1,75 @@
+{
+  "goa": {
+    "type": "place_card",
+    "key": "goa",
+    "title": "Goa",
+    "description": "Goa is a state on the southwestern coast of India within the Konkan region, geographically separated from the Deccan highlands by the Western Ghats. It is bordered by the Indian states of Maharashtra to the north and Karnataka to the east and south, with the Arabian Sea forming its western coastline. It is India's smallest state by area and fourth-smallest by population. Panaji is the state's capital, while Vasco da Gama is its largest city by population. The state's official language is Konkani, spoken by the majority of its inhabitants.",
+    "sights": [
+      "Baga Beach",
+      "Calangute Beach",
+      "Aguada Fort",
+      "Dudhsagar Falls"
+    ],
+    "best_time": "",
+    "how_to_reach": "",
+    "hotels": [],
+    "food": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/BeachFun.jpg/330px-BeachFun.jpg"
+  },
+  "mangalore": {
+    "type": "place_card",
+    "key": "mangalore",
+    "title": "Mangaluru",
+    "description": "Mangaluru, formerly called Mangalore, is a major industrial port city in the Indian state of Karnataka and on the west coast of India. It is located between the Arabian Sea and the Western Ghats about 352 km (219 mi) west of Bengaluru, the state capital, 14 km (8.7 mi) north of the Karnataka–Kerala border and 297 km (185 mi) south of Goa. Mangaluru is the state's only city to have all four modes of transport—air, road, rail and sea. The population of the urban agglomeration was 619,664 according to the 2011 national census of India. It is known for being one of the locations of the Indian strategic petroleum reserves.",
+    "sights": [
+      "Panambur Beach",
+      "St. Aloysius Chapel",
+      "Kadri Temple"
+    ],
+    "best_time": "",
+    "how_to_reach": "",
+    "hotels": [],
+    "food": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mangaluru_City_Skyline_Sunset.jpg/330px-Mangaluru_City_Skyline_Sunset.jpg"
+  },
+  "mumbai": {
+    "type": "place_card",
+    "key": "mumbai",
+    "title": "Mumbai",
+    "description": "Mumbai, also known as Bombay, is the capital city of the Indian state of Maharashtra. Mumbai is the financial capital and the most populous city proper of India with an estimated population of 12.5 million (1.25 crore). Mumbai is the centre of the Mumbai Metropolitan Region, which is among the most populous metropolitan areas in the world with a population of over 23 million. Mumbai lies on the Konkan coast on the west coast of India and has a deep natural harbour. In 2008, Mumbai was named an alpha world city. Mumbai has the highest number of billionaires out of any city in Asia.",
+    "sights": [],
+    "best_time": "",
+    "how_to_reach": "",
+    "hotels": [],
+    "food": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/%E0%A6%93%E0%A6%B0%E0%A6%B2%E0%A6%BF%E0%A6%B0_%E0%A6%97%E0%A6%97%E0%A6%A8%E0%A6%B0%E0%A7%88%E0%A6%96%E0%A6%BF%E0%A6%95_%E0%A6%A6%E0%A7%83%E0%A6%B6%E0%A7%8D%E0%A6%AF.jpg/330px-%E0%A6%93%E0%A6%B0%E0%A6%B2%E0%A6%BF%E0%A6%B0_%E0%A6%97%E0%A6%97%E0%A6%A8%E0%A6%B0%E0%A7%88%E0%A6%96%E0%A6%BF%E0%A6%95_%E0%A6%A6%E0%A7%83%E0%A6%B6%E0%A7%8D%E0%A6%AF.jpg"
+  },
+  "udupi": {
+    "type": "place_card",
+    "key": "udupi",
+    "title": "Udupi",
+    "description": "Udupi also known as Odipu is a city in the Indian state of Karnataka. It is the administrative headquarters of Udupi district, and one of the fastest-growing cities in Karnataka. Udupi is one of the top tourist attractions in Karnataka and has various educational institutions. It is notable for the Krishna Temple and is also known as the temple city. It also lends its name to the popular Udupi cuisine, is also known as Parashurama Kshetra, and is famous for Kanakana kindi.",
+    "sights": [],
+    "best_time": "",
+    "how_to_reach": "",
+    "hotels": [],
+    "food": [],
+    "image": "",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Udupi"
+  },
+  "bangalore": {
+    "type": "place_card",
+    "key": "bangalore",
+    "title": "Bengaluru",
+    "description": "Bengaluru, also known as Bangalore, is the capital and largest city of the southern Indian state of Karnataka. As per the 2011 census, the city had a population of 8.4 million, making it the third most populous city in India and the most populous in South India. The Bengaluru metropolitan area had a population of around 8.5 million, making it the fifth most populous urban agglomeration in the country. It is located towards the southern end of the Deccan Plateau, at an altitude of 900 m (3,000 ft) above sea level. The city is known as India's \"Garden City\", due to its parks and greenery.",
+    "sights": [],
+    "best_time": "",
+    "how_to_reach": "",
+    "hotels": [],
+    "food": [],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/View_from_Visvesvaraya_Industrial_and_Technological_Museum_%282025%29_02.jpg/330px-View_from_Visvesvaraya_Industrial_and_Technological_Museum_%282025%29_02.jpg",
+    "source": "wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bengaluru"
+  }
+}

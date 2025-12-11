@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VoyageHelper — Chat</title>
+
+  <!-- Font: Inter (fallbacks included) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      /* Travel-themed palette */
+      --bg1: #05293a;            /* deep ocean */
+      --bg2: #071827;            /* night sky */
+      --panel: rgba(255,255,255,0.02);
+      --card: #0b2a36;
+      --muted: #a9c6d6;
+      --accent-start: #27d1a8;   /* teal */
+      --accent-mid: #4ec7ff;     /* sky */
+      --accent-end: #ff8a65;     /* coral highlight */
+      --glass: rgba(255,255,255,0.03);
+      --shadow-1: 0 12px 36px rgba(2,6,23,0.6);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --max-width:1200px;
+      --ui-gap:18px;
+      --user-bubble: linear-gradient(90deg, rgba(4,76,103,0.95) 0%, rgba(3,20,40,0.85) 100%);
+      --bot-bubble: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+      --muted-bg: rgba(255,255,255,0.02);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: dark;
+      color: #e9f6ff;
+    }
+
+    html,body{height:100%;margin:0;background:
+      radial-gradient(1200px 450px at 10% 12%, rgba(78,199,255,0.045), transparent),
+      linear-gradient(180deg,var(--bg1) 0%, var(--bg2) 100%);
+      -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+    }
+
+    .app{
+      max-width:var(--max-width);
+      margin:26px auto;
+      padding:22px;
+      box-sizing:border-box;
+    }
+
+    /* Panel layout */
+    .panel{
+      background:linear-gradient(180deg, rgba(255,255,255,0.014), rgba(255,255,255,0.008));
+      border-radius:var(--radius-lg);
+      padding:18px;
+      box-shadow:var(--shadow-1);
+      display:grid;
+      grid-template-columns:300px 1fr;
+      gap:var(--ui-gap);
+      align-items:start;
+    }
+    @media(max-width:980px){
+      .panel{grid-template-columns:1fr;padding:12px}
+      .sidebar{order:2}
+    }
+
+    /* Sidebar */
+    .sidebar{padding:16px;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));border-radius:12px;}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{
+      width:56px;height:56px;border-radius:12px;
+      background:linear-gradient(135deg,var(--accent-start),var(--accent-mid));
+      display:flex;align-items:center;justify-content:center;font-weight:800;color:#02101a;font-size:20px;box-shadow:0 8px 26px rgba(3,7,20,0.6);
+      position:relative;overflow:visible;
+    }
+    .logo:after{
+      content:"✈";
+      position:absolute;right:-8px;top:-12px;font-size:12px;opacity:0.9;
+      transform:rotate(-15deg);
+    }
+    h1{margin:0;font-size:18px}
+    .tagline{color:var(--muted);font-size:13px;margin-top:6px}
+
+    .quick{margin-top:16px}
+    .quick .qbtn{
+      display:block;width:100%;text-align:left;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);
+      background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);color:inherit;margin-bottom:10px;cursor:pointer;transition:transform .12s ease, background .12s ease, box-shadow .12s ease;
+      box-shadow: inset 0 -1px 0 rgba(255,255,255,0.01);
+      font-size:14px;
+    }
+    .quick .qbtn:hover{transform:translateY(-4px); background:rgba(255,255,255,0.02);box-shadow:0 6px 18px rgba(2,6,23,0.35)}
+
+    .info{margin-top:12px;font-size:13px;color:var(--muted)}
+    .status-wrap{display:flex;align-items:center;gap:8px}
+    .status-dot{width:10px;height:10px;border-radius:50%;background:#ff6f61;box-shadow:0 0 8px rgba(255,111,97,0.2)}
+    .status-dot.online{background:linear-gradient(90deg,var(--accent-start),var(--accent-mid));box-shadow:0 0 12px rgba(78,199,255,0.06)}
+    .status-chip{display:inline-block;padding:6px 10px;border-radius:999px;background:linear-gradient(90deg,var(--accent-start),var(--accent-mid));color:#02101a;font-weight:700;}
+
+    .small-label{font-size:12px;color:var(--muted);display:block;margin-bottom:8px}
+
+    .badge{display:inline-block;background:rgba(255,255,255,0.015);padding:6px 8px;border-radius:8px;border:1px solid rgba(255,255,255,0.02);font-weight:600}
+
+    .control-row{display:flex;gap:8px;margin-top:12px;align-items:center}
+    .btn-clear{
+      margin-left:auto;padding:8px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--muted);cursor:pointer;font-size:13px;
+    }
+    .btn-clear:hover{background:rgba(255,255,255,0.02)}
+
+    /* Chat area */
+    .chat-area{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.012));border-radius:12px;padding:14px;display:flex;flex-direction:column;height:70vh;min-height:520px}
+    .messages{flex:1;overflow:auto;padding:12px 8px 8px 8px;display:flex;flex-direction:column;gap:12px}
+
+    /* message row */
+    .msg{display:flex;gap:12px;align-items:flex-end;max-width:85%;animation:fadeUp .18s ease}
+    .msg.user{margin-left:auto;justify-content:flex-end}
+
+    .avatar{width:36px;height:36px;border-radius:10px;flex:0 0 36px;display:flex;align-items:center;justify-content:center;font-weight:700}
+    .avatar.bot{background:linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.015));color:#bfe6ff;border:1px solid rgba(255,255,255,0.03)}
+    .avatar.user{background:linear-gradient(135deg,var(--accent-start),var(--accent-end));color:#02101a}
+
+    .bubble{padding:14px 16px;border-radius:14px;line-height:1.45;box-shadow:0 8px 22px rgba(2,6,23,0.45);min-width:64px;max-width:80ch}
+    .bubble.bot{background:var(--bot-bubble);border:1px solid rgba(255,255,255,0.03);color:#e6eef8}
+    .bubble.user{background:var(--user-bubble);border:1px solid rgba(255,255,255,0.02);color:#e8f8ff}
+
+    .meta{font-size:12px;color:var(--muted);margin-top:6px}
+
+    .timestamp{font-size:11px;color:var(--muted);margin-left:8px}
+
+    @keyframes fadeUp{
+      from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:none}
+    }
+
+    .typing{display:inline-block;height:10px;padding:8px 10px;border-radius:12px}
+    .dot{width:6px;height:6px;background:#fff;display:inline-block;border-radius:50%;opacity:0.9;margin:0 4px;animation:dot 1s infinite}
+    .dot:nth-child(2){animation-delay:0.12s}
+    .dot:nth-child(3){animation-delay:0.24s}
+    @keyframes dot{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+
+    .input-row{display:flex;gap:10px;margin-top:12px;align-items:center}
+    .input-wrap{position:relative;flex:1}
+    .input-row input{width:100%;padding:12px 48px 12px 14px;border-radius:999px;border:none;background:rgba(255,255,255,0.02);color:inherit;outline:none;font-size:15px;box-shadow:inset 0 -1px 0 rgba(255,255,255,0.01)}
+
+    .send{position:relative;border:none;padding:0 14px;height:44px;border-radius:999px;background:linear-gradient(90deg,var(--accent-end),var(--accent-mid));color:#02101a;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(3,8,26,0.5);transition:transform .12s ease}
+    .send:hover{transform:translateY(-3px)}
+    .send .icon{font-weight:900}
+
+    .input-icon{position:absolute;right:12px;top:50%;transform:translateY(-50%);display:flex;gap:8px;align-items:center}
+    .mic{width:34px;height:34px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,0.03);background:rgba(255,255,255,0.01);cursor:pointer}
+
+    .hint{font-size:13px;color:var(--muted);margin-top:8px}
+
+    /* place-card upgraded */
+    .place-card{
+      display:flex;gap:14px;align-items:flex-start;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+      border-radius:12px;padding:12px;border:1px solid rgba(255,255,255,0.03);width:100%;box-sizing:border-box;align-items:center
+    }
+    .place-card .thumb{flex:0 0 160px}
+    .place-card .thumb img{width:160px;height:110px;object-fit:cover;border-radius:10px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 6px 18px rgba(2,6,23,0.35)}
+    .place-card .content{flex:1;min-width:0}
+    .place-card h3{margin:0 0 6px 0;font-size:17px}
+    .place-card p{margin:0;color:var(--muted);font-size:14px;line-height:1.4}
+    .place-card .chips{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+    .chip{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.03);padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,0.02);font-size:13px;cursor:pointer;transition:transform .12s ease,box-shadow .12s ease}
+    .chip .icon{font-size:14px}
+    .chip:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(2,6,23,0.32)}
+
+    .hotels-list{margin-top:10px}
+    .hotel-item{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.005), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.02);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+    .hotel-meta{font-size:13px;color:var(--muted)}
+    .hotel-badges{display:flex;gap:8px;align-items:center}
+    .badge-small{background:rgba(255,255,255,0.02);padding:6px 8px;border-radius:8px;font-weight:700;color:var(--muted);font-size:13px;border:1px solid rgba(255,255,255,0.02)}
+
+    .source-link{font-size:13px;color:var(--accent-mid);text-decoration:underline;cursor:pointer}
+
+    /* scrollbar */
+    .messages::-webkit-scrollbar{width:10px}
+    .messages::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.03);border-radius:10px;border:2px solid transparent}
+
+    /* small responsive tweaks */
+    @media(max-width:640px){
+      .place-card .thumb{display:none}
+      .panel{padding:12px}
+      .logo{width:48px;height:48px}
+      .avatar{display:none}
+    }
+    .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="app" role="application" aria-label="VoyageHelper chat">
+    <div class="panel">
+      <aside class="sidebar" aria-hidden="false">
+        <div class="brand">
+          <img src="images/logo.png" alt="VoyageHelper Logo" class="logo">
+
+          <div>
+            <h1>VoyageHelper</h1>
+            <div class="tagline">Your smart travel companion</div>
+          </div>
+        </div>
+
+        <div class="quick" aria-hidden="false">
+          <div class="small-label">Try quick prompts</div>
+          <button class="qbtn" onclick="fill('Places to visit in Goa')">🌴 Places to visit in Goa</button>
+          <button class="qbtn" onclick="fill('Train timings from Mangalore to Bangalore')">🚆 Train timings Mangalore → Bangalore</button>
+          <button class="qbtn" onclick="fill('How to book a train ticket?')">🧾 How to book a train ticket?</button>
+          <button class="qbtn" onclick="fill('Bus schedule from Mangalore to Udupi')">🚌 Bus schedule Mangalore → Udupi</button>
+        </div>
+
+        <div class="info" aria-hidden="false">
+          <div style="margin-top:12px" class="status-wrap">Status: <span id="status" class="badge">offline</span> <span id="statusDot" class="status-dot" aria-hidden="true"></span></div>
+          <div style="margin-top:10px" class="small-label">Intent: <strong id="intent">-</strong> · Confidence: <strong id="confidence">-</strong></div>
+          <div style="margin-top:6px" class="small-label">Entities: <span id="entities">-</span></div>
+
+          <div class="control-row">
+            <button class="btn-clear" id="clearBtn" title="Clear chat history">Clear chat</button>
+            <div style="font-size:12px;color:var(--muted);margin-left:8px">Local only</div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="chat-area" role="main">
+        <div id="messages" class="messages" aria-live="polite" aria-atomic="false"></div>
+
+        <div class="input-row" role="form" aria-label="message input">
+          <div class="input-wrap">
+            <input id="input" placeholder="Ask VoyageHelper... e.g. 'Places to visit in Goa'" onkeydown="onKey(event)" aria-label="Message input" />
+            <div class="input-icon" aria-hidden="true">
+              <div class="mic" title="Voice (not implemented)">🎤</div>
+            </div>
+          </div>
+          <button id="sendBtn" class="send" aria-label="Send message"><span class="icon">↵</span></button>
+        </div>
+
+        <div class="hint small">Press Enter to send • Powered by VoyageHelper (local)</div>
+      </main>
+    </div>
+  </div>
+
+<script>
+  // ====== DOM Elements ======
+  const messagesEl = document.getElementById('messages');
+  const inputEl = document.getElementById('input');
+  const statusEl = document.getElementById('status');
+  const statusDot = document.getElementById('statusDot');
+  const intentEl = document.getElementById('intent');
+  const confEl = document.getElementById('confidence');
+  const entitiesEl = document.getElementById('entities');
+  const clearBtn = document.getElementById('clearBtn');
+
+  const API_URL = "http://127.0.0.1:5000/chat";
+  const HEALTH_URL = "http://127.0.0.1:5000/health";
+  const STORAGE_KEY = 'voyagehelper_chat_html';
+
+  // ====== Persistence (localStorage kept as before) ======
+  function saveChat() {
+    try {
+      localStorage.setItem(STORAGE_KEY, messagesEl.innerHTML);
+    } catch (e) {
+      console.warn("Could not save chat to storage", e);
+    }
+  }
+
+  function loadChat() {
+    try {
+      const html = localStorage.getItem(STORAGE_KEY);
+      if (html) {
+        messagesEl.innerHTML = html;
+        messagesEl.scrollTop = messagesEl.scrollHeight;
+        return true;
+      }
+    } catch (e) {
+      console.warn("Could not load chat from storage", e);
+    }
+    return false;
+  }
+
+  function clearChat() {
+    messagesEl.innerHTML = '';
+    try { localStorage.removeItem(STORAGE_KEY); } catch(e){}
+    appendMessage("Chat cleared. Say hi to start a new conversation.", 'bot');
+  }
+
+  clearBtn.addEventListener('click', clearChat);
+
+  // ====== Helpers ======
+  function timestamp() {
+    const d = new Date();
+    return d.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+  }
+
+  function makeAvatar(who){
+    const el = document.createElement('div');
+    el.className = 'avatar ' + (who==='user' ? 'user' : 'bot');
+    el.textContent = who==='user' ? 'U' : 'VH';
+    return el;
+  }
+
+  function appendMessage(text, who = 'bot', meta = '') {
+    const wrap = document.createElement('div');
+    wrap.className = 'msg ' + (who === 'user' ? 'user' : 'bot');
+
+    // avatar (hidden on small view)
+    const avatar = makeAvatar(who);
+    wrap.appendChild(avatar);
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble ' + (who === 'user' ? 'user' : 'bot');
+
+    // allow HTML for rendered cards only via renderPlaceCard; here escape
+    bubble.innerHTML = escapeHtml(text).replace(/\n/g, '<br>');
+    wrap.appendChild(bubble);
+
+    const ts = document.createElement('div');
+    ts.className = 'timestamp';
+    ts.textContent = timestamp();
+    wrap.appendChild(ts);
+
+    if (meta) {
+      const m = document.createElement('div');
+      m.className = 'meta';
+      m.textContent = meta;
+      wrap.appendChild(m);
+    }
+
+    messagesEl.appendChild(wrap);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    saveChat();
+  }
+
+  // safe HTML escape for text messages
+  function escapeHtml(unsafe) {
+    if (unsafe === undefined || unsafe === null) return '';
+    return String(unsafe)
+      .replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;')
+      .replaceAll('"','&quot;').replaceAll("'",'&#039;');
+  }
+
+  // ====== Render place card (replaces older same-key card) ======
+  function renderPlaceCard(card) {
+    const key = card.key || (card.title || "place").toLowerCase().replace(/\s+/g, "_");
+    const existing = messagesEl.querySelector(`.place-card[data-key="${key}"]`);
+    if (existing) {
+      const parentMsg = existing.closest('.msg');
+      if (parentMsg) parentMsg.remove();
+    }
+
+    const wrap = document.createElement('div');
+    wrap.className = 'msg bot';
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble bot';
+
+    const esc = s => (s === undefined || s === null) ? '' : String(s);
+
+    let html = `<div class="place-card" data-key="${escapeHtml(key)}">`;
+
+    if (card.image) {
+      html += `<div class="thumb"><img src="${escapeHtml(card.image)}" alt="${escapeHtml(card.title || '')}"></div>`;
+    } else {
+      // subtle placeholder
+      html += `<div class="thumb"><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='220'><rect width='100%' height='100%' fill='%23081216'/><text x='50%' y='50%' fill='%23a9c6d6' font-size='18' font-family='Inter' text-anchor='middle'>Image</text></svg>" alt=""></div>`;
+    }
+
+    html += `<div class="content">`;
+    html += `<h3>${escapeHtml(card.title || '')}</h3>`;
+
+    if (card.description) {
+      const short = escapeHtml(card.description).slice(0, 700);
+      html += `<p>${short}${card.description.length > 700 ? '...' : ''}</p>`;
+    }
+
+    if (card.sights && card.sights.length) {
+      html += `<div style="margin-top:8px"><strong style="font-size:13px">Top sights:</strong><ul style="margin:6px 0 0 18px">`;
+      card.sights.slice(0,6).forEach(s => { html += `<li>${escapeHtml(s)}</li>`; });
+      html += `</ul></div>`;
+    }
+
+    if ((card.hotels && card.hotels.length) || (card.food && card.food.length)) {
+      html += `<div class="hotels-list">`;
+      if (card.hotels && card.hotels.length) {
+        html += `<div style="margin-top:10px"><strong>Hotels</strong>`;
+        card.hotels.slice(0,8).forEach(h => {
+          if (typeof h === 'string') {
+            html += `<div class="hotel-item"><div><strong>${escapeHtml(h)}</strong></div><div class="hotel-meta">&nbsp;</div></div>`;
+          } else if (typeof h === 'object') {
+            const name = escapeHtml(h.name || h.title || 'Hotel');
+            const rating = h.rating ? `<span class="badge-small">⭐ ${escapeHtml(h.rating)}</span>` : '';
+            const price = h.price_range ? `<span class="badge-small">${escapeHtml(h.price_range)}</span>` : '';
+            const loc = h.location ? `<div class="hotel-meta">${escapeHtml(h.location)}</div>` : '';
+            html += `<div class="hotel-item"><div><strong>${name}</strong>${loc}</div><div class="hotel-badges">${rating}${price}</div></div>`;
+          }
+        });
+        html += `</div>`;
+      }
+      if (card.food && card.food.length) {
+        html += `<div style="margin-top:8px"><strong>Local food:</strong> ${escapeHtml(card.food.slice(0,5).join(', '))}</div>`;
+      }
+      html += `</div>`;
+    }
+
+    html += `<div style="margin-top:10px" class="chips-row">`;
+    html += `<span class="chip action" data-action="how_to_reach" data-title="${escapeHtml(card.title || '')}"><span class="icon">🧭</span>How to reach</span>`;
+    html += `<span class="chip action" data-action="best_time" data-title="${escapeHtml(card.title || '')}"><span class="icon">🌤</span>Best time</span>`;
+    html += `<span class="chip action" data-action="hotels" data-title="${escapeHtml(card.title || '')}"><span class="icon">🏨</span>Hotels</span>`;
+    if (card.source_url) {
+      html += `<span class="chip action" data-action="open_url" data-url="${escapeHtml(card.source_url)}"><span class="icon">🔗</span>Read on ${escapeHtml(card.source || 'source')}</span>`;
+    }
+    html += `</div>`;
+
+    if (card.source) {
+      html += `<div style="margin-top:8px" class="meta">Source: <span class="source-link">${escapeHtml(card.source)}</span>${card.source_url ? ` — <a class="source-link" href="${escapeHtml(card.source_url)}" target="_blank" rel="noopener noreferrer">open</a>` : ''}</div>`;
+    }
+
+    html += `</div></div>`;
+
+    bubble.innerHTML = html;
+    wrap.appendChild(bubble);
+
+    messagesEl.appendChild(wrap);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    saveChat();
+  }
+
+  // ====== sendDirect: send a message string directly to backend (used by chips) ======
+  async function sendDirect(message) {
+    if (!message) return;
+
+    // show user bubble
+    appendMessage(message, 'user');
+
+    // typing indicator
+    const typing = document.createElement('div');
+    typing.className = 'msg bot';
+    typing.innerHTML = `<div class="bubble bot typing"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>`;
+    messagesEl.appendChild(typing);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+
+    try {
+      console.log("Sending direct message to API:", message);
+      const res = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message })
+      });
+
+      if (typing.parentNode) typing.remove();
+
+      if (!res.ok) {
+        appendMessage("Server error. Try again later.", 'bot');
+        setStatus(false);
+        console.error("Server returned not OK:", res.status);
+        return;
+      }
+
+      const data = await res.json();
+      console.log("API response:", data);
+
+      // handle response: card + reply
+      if (data && data.card) {
+        renderPlaceCard(data.card);
+        if (data.reply) appendMessage(data.reply, 'bot');
+      } else if (data && data.reply) {
+        appendMessage(data.reply, 'bot');
+      } else {
+        // friendly fallback so UX doesn't look broken
+        appendMessage("I couldn't find specific details for that — try phrasing like 'Best time to visit Udupi in winter' or 'Show hotels in Udupi with price range'.", 'bot');
+      }
+
+      setStatus(true);
+      intentEl.textContent = data.intent || '-';
+      confEl.textContent = typeof data.confidence === "number" ? (Math.round(data.confidence * 100) / 100) : '-';
+      entitiesEl.textContent = (data.entities && data.entities.cities) ? data.entities.cities.join(", ") : '-';
+
+    } catch (err) {
+      if (typing.parentNode) typing.remove();
+      appendMessage("Cannot reach server. Is your backend running?", 'bot');
+      setStatus(false);
+      console.error("Fetch error:", err);
+    }
+  }
+
+  // delegated handler for place-card action chips (sends directly)
+  messagesEl.addEventListener('click', function(e) {
+    const chip = e.target.closest('.chip.action');
+    if (!chip) return;
+
+    const url = chip.dataset.url;
+    if (url) { window.open(url, '_blank'); return; }
+
+    const action = chip.dataset.action;
+    const title = chip.dataset.title || '';
+    let message = '';
+    if (action === 'how_to_reach') message = `How to reach ${title}?`;
+    else if (action === 'best_time') message = `Best time to visit ${title}?`;
+    else if (action === 'hotels') message = `Hotels in ${title}`;
+    else message = chip.textContent.trim() + (title ? ` ${title}` : '');
+
+    // send directly instead of relying on inputEl or timeouts
+    sendDirect(message);
+  });
+
+  function setStatus(on) {
+    statusEl.textContent = on ? 'online' : 'offline';
+    statusEl.className = on ? 'badge' : 'badge';
+    statusDot.className = on ? 'status-dot online' : 'status-dot';
+  }
+
+  // ====== Health Check (auto status) ======
+  async function checkHealth() {
+    try {
+      const r = await fetch(HEALTH_URL);
+      setStatus(r.ok);
+    } catch (e) {
+      setStatus(false);
+    }
+  }
+  checkHealth(); // run on page load
+
+  // ====== Main Send Function (keeps original behavior for typed input) ======
+  async function send() {
+    const userInput = inputEl.value.trim();
+    if (!userInput) return;
+
+    appendMessage(userInput, 'user');
+    inputEl.value = '';
+    inputEl.focus();
+
+    // typing indicator
+    const typing = document.createElement('div');
+    typing.className = 'msg bot';
+    typing.innerHTML = `<div class="bubble bot typing"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>`;
+    messagesEl.appendChild(typing);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+
+    try {
+      const res = await fetch(API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: userInput })
+      });
+
+      if (typing.parentNode) typing.remove();
+
+      if (!res.ok) {
+        appendMessage("Server error. Try again later.", 'bot');
+        setStatus(false);
+        return;
+      }
+
+      const data = await res.json();
+
+      if (data && data.card) {
+        renderPlaceCard(data.card);
+        if (data.reply) appendMessage(data.reply, 'bot');
+      } else if (data && data.reply) {
+        appendMessage(data.reply || "Sorry, I didn't understand.");
+      } else {
+        appendMessage("Sorry, I didn't understand.");
+      }
+
+      setStatus(true);
+
+      intentEl.textContent = data.intent || '-';
+      confEl.textContent = typeof data.confidence === "number" ? (Math.round(data.confidence * 100) / 100) : '-';
+
+      entitiesEl.textContent = (data.entities && data.entities.cities) ? data.entities.cities.join(", ") : '-';
+
+    } catch (err) {
+      if (typing.parentNode) typing.remove();
+      appendMessage("Cannot reach server. Is your backend running?");
+      setStatus(false);
+      console.error("Fetch error:", err);
+    }
+  }
+
+  // ====== Keyboard Handler ======
+  function onKey(e) {
+    if (e.key === "Enter") { e.preventDefault(); send(); }
+  }
+
+  // ====== Autofill Quick Buttons ======
+  function fill(txt) { inputEl.value = txt; inputEl.focus(); }
+
+  // ====== Load previous chat or welcome ======
+  const hadChat = loadChat();
+  if (!hadChat) {
+    appendMessage("Hello! I am VoyageHelper. Ask me about places, train/bus timings, or ticket booking steps.", 'bot');
+  }
+
+  // attach enter key and send button
+  inputEl.addEventListener('keydown', onKey);
+  document.getElementById('sendBtn').addEventListener('click', send);
+</script>
+
+</body>
+</html>
